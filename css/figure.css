@@ -1,0 +1,43 @@
+figure{
+    width: 100%;
+    height: calc(100vh - 120px);
+    overflow: hidden;
+    background-color: #555;
+}
+figure video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.6;
+}
+figure .inner{
+    width: 1180px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+figure .inner h2{
+    font: normal 120px/1 "arial";
+    color: #fff;
+    margin-bottom: 20px;
+}
+figure .inner p{
+    font: 12px/1.4 "arial";
+    color: #888;
+    margin-bottom: 80px;
+}
+figure .inner a{
+    display: block;
+    width: 400px;
+    height: 30px;
+    border: 1px solid #bbb;
+    text-align: center;
+    font: bold 11px/30px "arial";
+    color: white;
+}
+figure .inner a:hover{
+    background-color: #fff;
+    color: #555;
+}

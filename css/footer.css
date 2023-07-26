@@ -1,0 +1,47 @@
+footer{
+    width: 100%;
+    padding: 100px 0;
+    background-color: #555;
+}
+footer .inner{
+    width: 1180px;
+    margin: 0 auto;
+}
+footer .inner::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/* 맨 밑이라 float 초기화 안 해도 됨
+but 유지보수를 위해 해주는게 나음 */
+footer .inner h1{
+    font: bold 24px/1 "arial";
+    color: #666;
+    float: left;
+}
+footer .inner ul{
+    float: right;
+}
+footer .inner ul li{
+    float: left;
+    margin-left: 20px;
+}
+footer .inner ul li a{
+    font: bold 14px/1 "arial";
+    color: #aaa;
+}
+footer .inner address{
+    float: left;
+    width: 100%;
+    font: 14px/1 "arial";
+    color: #bbb;
+    margin: 20px 0;
+    border-top: 1px solid black;
+    padding-top: 20px;
+}
+footer .inner p{
+    float: left;
+    width: 100%;
+    font: 12px/1 "arial";
+    color: #777;
+}

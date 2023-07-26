@@ -1,0 +1,52 @@
+header{
+    width: 100%;
+}
+header .inner{
+    width: 1180px;
+    height: 120px;
+    margin: 0 auto;
+    position: relative;
+}
+header .inner h1{
+    position: absolute;
+    left: 30px;
+    bottom: 20px;
+}
+/* 글은 a태그에 작성하였기 떄문에  h1에는 폰트가 적용이 안 됨
+반드시 글을 작성한 a태그에 font 작성 */
+header .inner h1 a{
+    font: bold 20px/1 "arial";
+    color: #444;
+}
+header .inner .menuWeb #gnb{
+    position: absolute;
+    right: 30px;
+    bottom: 0;
+}
+header .inner .menuWeb #gnb li{
+    float: left;
+}
+header .inner .menuWeb #gnb li a{
+    display: block;
+    padding: 14px 40px;
+    font: bold 14px/1 "arial";
+    color: #777;
+}
+header .inner .menuWeb #gnb li a:hover{
+    background-color: #555;
+    color: white;
+}
+
+header .inner .utll{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+header .inner .utll li{
+    float: left;
+    margin-left: 20px;
+}
+header .inner .utll li a{
+    font: 12px/1 "arial";
+    color: #999;
+}
