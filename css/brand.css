@@ -90,3 +90,35 @@
     height: 100%;
     object-fit: cover;
 }
+
+@media screen and (max-width:1179px) {
+    #brand{
+        padding: 100px 20px;
+    }
+    #brand .inner{
+        width: 100%;
+    }
+    /* 첫 번쨰 아티클 */
+    #brand .inner .wrap article:nth-of-type(1){
+        width: 49%;
+        margin-right: 2%;
+    }
+    
+    /* 두 번째 아티클 */
+    #brand .inner .wrap article:nth-of-type(2){
+        width: 49%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    } 
+    
+    /* 세 번째 아티클 */
+    #brand .inner .wrap article:nth-of-type(3){
+        width: 49%;
+        margin-left: 0px;
+    }
+    
+    /* 네 번쨰 아티클 */
+    #brand .inner .wrap article:nth-of-type(4){
+        width: 100%;
+    }
+}
