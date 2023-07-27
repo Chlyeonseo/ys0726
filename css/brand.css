@@ -114,6 +114,7 @@
     /* 세 번째 아티클 */
     #brand .inner .wrap article:nth-of-type(3){
         width: 49%;
+        margin-right: 0;
         margin-left: 0px;
     }
     
@@ -121,4 +122,41 @@
     #brand .inner .wrap article:nth-of-type(4){
         width: 100%;
     }
+}
+
+@media screen and (max-width:450px) {
+    
+    /* 첫 번쨰 아티클 */
+    #brand .inner .wrap article:nth-of-type(1){
+        width: 100%;
+        height: 310px;
+        margin-right: 2%;
+        padding: 50px;
+        margin-bottom: 10px;
+    }
+    #brand .inner .wrap article:nth-of-type(1) i{
+        font-size: 80px;
+        margin-bottom: 10px;
+    }
+    #brand .inner .wrap article:nth-of-type(1) h2{
+        margin-bottom: 20px;
+    }
+    #brand .inner .wrap article:nth-of-type(1) p{
+        margin-bottom: 20px; 
+    }
+    
+    /* 두 번째 아티클 */
+    #brand .inner .wrap article:nth-of-type(2){
+        width: 49%;
+        height: 150px;
+        margin-right: 2%;
+    } 
+    
+    /* 세 번째 아티클 */
+    #brand .inner .wrap article:nth-of-type(3){
+        width: 49%;
+        height: 150px;
+        margin: 0;
+    }
+    
 }

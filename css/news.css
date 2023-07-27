@@ -62,14 +62,22 @@
     #news .inner .wrap article{
         width: 49%;
         margin-right: 2%;
-        margin-bottom: 2%;
+        margin-bottom: 4%;
     }
     #news .inner .wrap article:nth-of-type(2n){
         margin-right: 0%;
     }
-    #news .inner .wrap article .pic{
-        height: 20vh;
-        /* 다른 구역에 영향 미치지 않게 잘라버림 */
-    }
     
+    
+}
+
+@media screen and (max-width:450px) {
+    
+    #news .inner .wrap article{
+        width: 100%;
+        margin-right: 0%;
+    }
+    #news .inner .wrap article .pic{
+        height: 30vh;
+    }
 }

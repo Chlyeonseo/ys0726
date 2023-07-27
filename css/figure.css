@@ -58,9 +58,10 @@ figure .inner a:hover{
         padding: 0 20px;
     }
     figure .inner h2{
-        font: normal 14vh/1 "arial";
+        font: normal 14vw/1 "arial";
     }
     figure .inner a{
         width: 100%;
     }
 }
+

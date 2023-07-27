@@ -46,3 +46,12 @@
 #community .inner ul li:hover span{
     color: #eee;
 }
+
+@media screen and (max-width:1179px) {
+    #community{
+        padding: 100px 20px;
+    }
+    #community .inner{
+        width: 100%;
+    }
+}
